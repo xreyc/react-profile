@@ -1,16 +1,18 @@
-import { Avatar } from "@mui/material";
-import profileImage from '../assets/profile.png';
+import PropTypes from 'prop-types';
 
-const Profile = () => {
-    return <div className="profile-wrapper content-padding">
+
+const Profile = (props) => {
+    const { isFixed } = props;
+
+    Profile.propTypes = {
+        isFixed: PropTypes.bool.isRequired,
+    };
+
+    return <div className="profile-wrapper" style={{
+        position: isFixed ? 'fixed' : 'relative',
+        paddingTop: isFixed ? '20px' : '70px'
+    }}>
         <div>
-            <div style={{ display: 'flex' }}>
-                <Avatar
-                    alt="Reyco Profile"
-                    src={profileImage}
-                    sx={{ width: 150, height: 150 }}
-                />
-            </div>
 
             <div className="profile-name">
                 Reyco Seguma
@@ -19,6 +21,11 @@ const Profile = () => {
             <div className="profile-profession">
                 Fullstack Software Engineer
             </div>
+            <div className="profile-item">
+                <i className="bi bi-buildings"></i>
+                <span>Notre Dame of Marbel University</span>
+            </div>
+
             <div className="profile-item">
                 <i className="bi bi-envelope-at"></i>
                 <span>segumareyco@gmail.com</span>
@@ -38,9 +45,9 @@ const Profile = () => {
         </div>
 
         <div className="profile-socials">
-            <i className="devicon-github-original" style={{ fontSize: 30 }}></i>
-            <i className="devicon-linkedin-plain" style={{ fontSize: 30 }}></i>
-            <i className="devicon-facebook-plain" style={{ fontSize: 30 }}></i>
+            <i className="devicon-github-original"></i>
+            <i className="devicon-linkedin-plain"></i>
+            <i className="devicon-facebook-plain"></i>
         </div>
     </div>
 }

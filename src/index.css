@@ -1,7 +1,13 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --color-primary: #02abff;
+  font-family: 'Space Mono';
+  --color-primary: #1e2a4a;
+  --color-secondary: #02abff;
   --color-grey1: #111;
+  --color-grey2: #555;
+  --color-dark1: #0e101c;
+  --color-white: #fff;
+  --color-light1: #ccc;
+  --color-pink: #ec5990;
 }
 
 body {
@@ -9,7 +15,68 @@ body {
 }
 
 .content-padding {
-  padding: 50px 0px;
+  padding: 80px 0px 0px 0px;
+}
+
+/* HEADER */
+.header-wrapper {
+  background-color: var(--color-dark1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-name {
+  margin: 20px 0px;
+  font-family: "Kaushan Script";
+  font-size: 50px;
+  font-weight: 700;
+  color: var(--color-white);
+  transform: rotate(-5deg);
+}
+
+.header-profession {
+  margin: 20px 0px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color-secondary);
+}
+
+.header-socials {
+  margin: 20px 0px;
+  font-size: 30px;
+  color: var(--color-white);
+  display: flex;
+  gap: 20px;
+}
+
+.header-links {
+  margin: 20px 0px;
+  font-size: 17px;
+  color: var(--color-light1);
+}
+
+.header-links>a {
+  text-decoration: none;
+  color: var(--color-light1);
+}
+
+.header-links>a:hover {
+  border-bottom: 2px solid var(--color-pink);
+}
+
+.header-links>span {
+  margin: 0px 20px;
+}
+
+.content-sub-title {
+  margin-top: 80px;
+  margin-bottom: 10px;
+  background-color: #e6e6e6;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 /* PROFILE */
@@ -20,20 +87,27 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 900px) {
+  .profile-wrapper {
+    display: none;
+  }
+}
+
 .profile-name {
   margin: 20px 0px 0px 0px;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .profile-profession {
-  padding: 10px 0px 15px 0px;
+  padding: 20px 0px 20px 0px;
   font-size: 20px;
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .profile-item {
+  margin-bottom: 20px;
   display: flex;
   gap: 10px;
 }
@@ -47,11 +121,69 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 14px;
-  color: #111;
+  color: var(--color-primary);
   gap: 20px;
 }
 
 .profile-socials {
   display: flex;
   gap: 15px;
+}
+
+.profile-socials>i {
+  font-size: 30px;
+  color: var(--color-primary);
+}
+
+/* ABOUT */
+.about-wrap {
+  font-size: 17px;
+  color: var(--color-grey2);
+}
+
+/* EXPERIENCE */
+.experience-job {
+  display: flex;
+  gap: 15px;
+}
+
+.experience-role {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.experience-company {
+  margin: 0px 0px 10px 0px;
+  font-size: 14px;
+  color: var(--color-pink);
+}
+
+.experience-body {
+  margin-top: 20px;
+}
+
+.experience-show-more {
+  padding-top: 5px;
+}
+
+.experience-show-more>a {
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.experience-show-more>a:hover {
+  border-bottom: 2px solid var(--color-pink);
+}
+
+/* SERVICES */
+.service-item {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.service-name {
+  font-size: 17px;
+  font-weight: bold;
 }
