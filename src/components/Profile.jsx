@@ -21,6 +21,7 @@ const Profile = (props) => {
             <div className="profile-profession">
                 Fullstack Software Engineer
             </div>
+
             <div className="profile-item">
                 <i className="bi bi-buildings"></i>
                 <span>Notre Dame of Marbel University</span>

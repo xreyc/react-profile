@@ -56,6 +56,7 @@ body {
   margin: 20px 0px;
   font-size: 17px;
   color: var(--color-light1);
+  text-align: center;
 }
 
 .header-links>a {
@@ -81,6 +82,7 @@ body {
 
 /* PROFILE */
 .profile-wrapper {
+  padding-right: 30px;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
@@ -95,13 +97,13 @@ body {
 
 .profile-name {
   margin: 20px 0px 0px 0px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
 .profile-profession {
   padding: 20px 0px 20px 0px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 600;
   color: var(--color-secondary);
 }
@@ -114,7 +116,7 @@ body {
 
 .profile-item>span {
   font-weight: 200;
-  color: var(--color-grey1);
+  color: var(--color-grey2);
 }
 
 .profile-menus {
