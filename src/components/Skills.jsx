@@ -291,7 +291,7 @@ const Skills = () => {
                 <Grid item md={6}>
                     <div className="service-item">
                         <div>
-                            <i className="bi bi-3-circle" style={{ fontSize: 20 }}></i>
+                            <i className="bi bi-5-circle" style={{ fontSize: 20 }}></i>
                         </div>
                         <div>
                             <div className="service-name">Lowcode Development</div>
