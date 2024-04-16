@@ -2,6 +2,7 @@ import { Container, Grid } from '@mui/material';
 
 import { useEffect, useState } from 'react';
 import About from './components/About';
+import Codes from './components/Codes';
 import Experience from './components/Experience';
 import Header from './components/Header';
 import Profile from './components/Profile';
@@ -36,6 +37,7 @@ function App() {
               <Experience />
               <Services />
               <Skills />
+              <Codes />
               <div style={{ height: 50 }}></div>
             </div>
           </Grid>

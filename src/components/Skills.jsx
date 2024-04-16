@@ -74,7 +74,7 @@ const Skills = () => {
             <div style={{ height: '30px' }}></div>
 
             <Grid container>
-                <Grid item md={6}>
+                <Grid item md={12}>
                     <div className="service-item">
                         <div>
                             <i className="bi bi-1-circle" style={{ fontSize: 20 }}></i>
@@ -88,7 +88,7 @@ const Skills = () => {
                             <li style={{ marginBottom: '20px' }}>
                                 <span><i className="devicon-html5-plain" style={{ color: '#e44d26' }}></i> HTML - </span>
                                 <span><i className="devicon-css3-plain" style={{ color: '#1572b6' }}></i> CSS - </span>
-                                <span><i className="devicon-sass-original" style={{ color: '#cb6699' }}></i> SASS</span><br></br>
+                                <span><i className="devicon-sass-original" style={{ color: '#cb6699' }}></i> SASS - </span>
                                 <span><i className="devicon-bootstrap-plain" style={{ color: '#8112f9' }}></i> Bootstrap - </span>
                                 <span><i className="devicon-materialui-plain" style={{ color: '#1c7fb6' }}></i> MaterialUI</span>
                             </li>
@@ -98,7 +98,7 @@ const Skills = () => {
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><i className="devicon-react-original" style={{ color: '#61dafb' }}></i> React - </span>
-                                <span><i className="devicon-react-original" style={{ color: '#61dafb' }}></i> React Native</span><br></br>
+                                <span><i className="devicon-react-original" style={{ color: '#61dafb' }}></i> React Native - </span>
                                 <span><i className="devicon-nextjs-plain" style={{ color: '#111111' }}></i> Next</span>
                             </li>
                             <li style={{ marginBottom: '20px' }}>
@@ -124,7 +124,7 @@ const Skills = () => {
                     </div>
                 </Grid>
 
-                <Grid item md={6}>
+                <Grid item md={12}>
                     <div className="service-item">
                         <div>
                             <i className="bi bi-2-circle" style={{ fontSize: 20 }}></i>
@@ -137,13 +137,13 @@ const Skills = () => {
                         <ul>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><i className="devicon-nodejs-plain-wordmark" style={{ color: '#83cd29' }}></i> NodeJS - </span>
-                                <span><i className="devicon-express-original" style={{ color: '#111111' }}></i> Express</span><br></br>
-                                <span><i className="devicon-sequelize-plain" style={{ color: '#03afef' }}></i> Sequelize </span>
+                                <span><i className="devicon-express-original" style={{ color: '#111111' }}></i> Express - </span>
+                                <span><i className="devicon-sequelize-plain" style={{ color: '#03afef' }}></i> Sequelize - </span>
                                 <span><i className="devicon-mongodb-plain" style={{ color: '#4faa41' }}></i> Mongoose </span>
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><i className="devicon-php-plain" style={{ color: '#6181b6' }}></i> PHP - </span>
-                                <span><i className="devicon-codeigniter-plain" style={{ color: '#ee4323' }}></i> CodeIgniter</span><br></br>
+                                <span><i className="devicon-codeigniter-plain" style={{ color: '#ee4323' }}></i> CodeIgniter - </span>
                                 <span><i className="devicon-laravel-original" style={{ color: '#fd4f31' }}></i> Laravel </span>
                             </li>
                             <li style={{ marginBottom: '20px' }}>
@@ -153,7 +153,7 @@ const Skills = () => {
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><i className="devicon-dotnetcore-plain" style={{ color: '#623697' }}></i> .NET Core - </span>
-                                <span><i className="devicon-csharp-plain" style={{ color: '#9b4f96' }}></i> CSharp - </span><br></br>
+                                <span><i className="devicon-csharp-plain" style={{ color: '#9b4f96' }}></i> CSharp - </span>
                                 <span><i className="devicon-dot-net-plain" style={{ color: '#126eb4' }}></i> ASP.NET </span>
                             </li>
                             <li style={{ marginBottom: '20px' }}>
@@ -168,7 +168,7 @@ const Skills = () => {
                     </div>
                 </Grid>
 
-                <Grid item md={6}>
+                <Grid item md={12}>
                     <div className="service-item">
                         <div>
                             <i className="bi bi-3-circle" style={{ fontSize: 20 }}></i>
@@ -182,7 +182,7 @@ const Skills = () => {
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={googleCloudLogo} height={15} /> GCP - </span>
                                 <span><img src={googleFirebaseLogo} height={15} /> Firebase - </span>
-                                <span><img src={googleMapsLogo} height={15} /> Maps</span><br></br>
+                                <span><img src={googleMapsLogo} height={15} /> Maps - </span>
                                 <span><img src={googleIdentityLogo} height={15} /> Identity - </span>
                                 <span><img src={googleFunctionLogo} height={15} /> Cloud Function</span><br></br>
                                 <span><img src={googleCloudRunLogo} height={15} /> Cloud Run - </span>
@@ -191,10 +191,10 @@ const Skills = () => {
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={awsLogo} height={12} /> AWS - </span>
                                 <span><img src={awsEC2Logo} height={15} /> EC2 - </span>
-                                <span><img src={awsVPCLogo} height={15} /> VPC</span><br></br>
+                                <span><img src={awsVPCLogo} height={15} /> VPC - </span>
                                 <span><img src={awsELBLogo} height={15} /> ELB - </span>
                                 <span><img src={awsECSLogo} height={15} /> ECS - </span>
-                                <span><img src={awsEKSLogo} height={15} /> EKS</span><br></br>
+                                <span><img src={awsEKSLogo} height={15} /> EKS- </span>
                                 <span><img src={awsWAFLogo} height={15} /> WAF - </span>
                                 <span><img src={awsCognitoLogo} height={15} /> Cognito</span><br></br>
                                 <span><img src={awsSecretManagerLogo} height={15} /> Secret Manager</span>
@@ -202,13 +202,13 @@ const Skills = () => {
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={serverlessLogo} height={15} /> Serverless - </span>
                                 <span><img src={awsSAMLogo} height={15} /> SAM - </span>
-                                <span><img src={awsCKDLogo} height={15} /> CKD</span><br></br>
+                                <span><img src={awsCKDLogo} height={15} /> CKD - </span>
                                 <span><img src={awsLambdaLogo} height={15} /> Lambda - </span>
                                 <span><img src={awsAPIGatewayLogo} height={15} /> API Gateway - </span>
                                 <span><img src={awsSNSLogo} height={15} /> SNS</span><br></br>
                                 <span><img src={awsSQSLogo} height={15} /> SQS - </span>
                                 <span><img src={awsS3Logo} height={15} /> S3 - </span>
-                                <span><img src={awsCloudwatchLogo} height={15} /> Cloudwatch</span><br></br>
+                                <span><img src={awsCloudwatchLogo} height={15} /> Cloudwatch - </span>
                                 <span><img src={awsSSMLogo} height={15} /> SSM - </span>
                                 <span><img src={awsCloudFormationLogo} height={15} /> CloudFormation</span>
                             </li>
@@ -219,12 +219,12 @@ const Skills = () => {
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={doLogo} height={15} /> Digital Ocean - </span>
-                                <span><img src={doLogo} height={15} /> Droplets</span><br></br>
+                                <span><img src={doLogo} height={15} /> Droplets - </span>
                                 <span><img src={doLogo} height={15} /> App Platform</span>
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={githubActionsLogo} height={15} /> Github Actions - </span>
-                                <span><img src={awsCodepipelineLogo} height={15} /> Codepipeline</span><br></br>
+                                <span><img src={awsCodepipelineLogo} height={15} /> Codepipeline - </span>
                                 <span><img src={awsCodebuildLogo} height={15} /> Codebuild - </span>
                                 <span><img src={awsCodedeployLogo} height={15} /> Codedeploy</span>
                             </li>
@@ -234,18 +234,18 @@ const Skills = () => {
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={postgresLogo} height={15} /> Postgres - </span>
-                                <span><img src={mysqlLogo} height={15} /> MySQL</span><br></br>
+                                <span><img src={mysqlLogo} height={15} /> MySQL - </span>
                                 <span><img src={oracleLogo} height={15} /> OracleDB - </span>
                                 <span><img src={mssqlLogo} height={15} /> MSSQL - </span>
-                                <span><img src={mongoDbLogo} height={15} /> MongoDB</span><br></br>
-                                <span><img src={dynamoDbLogo} height={15} /> DynamoDB - </span>
+                                <span><img src={mongoDbLogo} height={15} /> MongoDB - </span>
+                                <span><img src={dynamoDbLogo} height={15} /> DynamoDB</span><br></br>
                                 <span><img src={firestoreLogo} height={15} /> Firestore</span>
                             </li>
                         </ul>
                     </div>
                 </Grid>
 
-                <Grid item md={6}>
+                <Grid item md={12}>
                     <div className="service-item">
                         <div>
                             <i className="bi bi-4-circle" style={{ fontSize: 20 }}></i>
@@ -274,21 +274,21 @@ const Skills = () => {
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={gimpLogo} height={15} /> Gimp - </span>
                                 <span><img src={inkscapeLogo} height={15} /> Inkscape - </span>
-                                <span><img src={filmoraLogo} height={15} /> Filmora</span><br></br>
+                                <span><img src={filmoraLogo} height={15} /> Filmora - </span>
                                 <span><img src={afterEffectLogo} height={15} /> After Effect </span>
                             </li>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={drawioLogo} height={15} /> DrawIO - </span>
-                                <span><img src={arduinoLogo} height={15} /> Arduino</span><br></br>
+                                <span><img src={arduinoLogo} height={15} /> Arduino - </span>
                                 <span><img src={raspberryPILogo} height={15} /> RaspberryPI - </span>
-                                <span><img src={proteusLogo} height={15} /> Proteus</span><br></br>
-                                <span><img src={sketchupLogo} height={15} /> SketchUp - </span>
+                                <span><img src={proteusLogo} height={15} /> Proteus - </span>
+                                <span><img src={sketchupLogo} height={15} /> SketchUp - </span><br></br>
                                 <span><img src={autocadLogo} height={15} /> AutoCAD </span>
                             </li>
                         </ul>
                     </div>
                 </Grid>
-                <Grid item md={6}>
+                <Grid item md={12}>
                     <div className="service-item">
                         <div>
                             <i className="bi bi-5-circle" style={{ fontSize: 20 }}></i>
@@ -301,7 +301,7 @@ const Skills = () => {
                         <ul>
                             <li style={{ marginBottom: '20px' }}>
                                 <span><img src={outsystemsLogo} height={15} /> Outsystems - </span>
-                                <span><img src={appianLogo} height={15} /> Appian</span><br></br>
+                                <span><img src={appianLogo} height={15} /> Appian - </span>
                                 <span><img src={flutterflowLogo} height={15} /> Flutterflow </span>
                             </li>
                         </ul>

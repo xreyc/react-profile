@@ -189,3 +189,19 @@ body {
   font-size: 17px;
   font-weight: bold;
 }
+
+/* CODES */
+.code-card {
+  background-color: var(--color-white);
+  cursor: pointer;
+}
+
+.code-card:hover {
+  background-color: var(--color-light1);
+}
+
+.codes-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
